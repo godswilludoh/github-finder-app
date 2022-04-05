@@ -1,7 +1,6 @@
 import React from 'react';
 
-const Navbar = (props) => {
-	const { icon, title } = props;
+const Navbar = ({ icon, title }) => {
 	return (
 		<nav className='navbar bg-primary'>
 			<h1>
